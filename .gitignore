@@ -21,5 +21,5 @@ __pycache__/
 
 venv/
 build/
-dist/
+dist/*.whl
 datass.egg*/
