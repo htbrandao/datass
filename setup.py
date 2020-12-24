@@ -26,11 +26,9 @@ setuptools.setup(
     download_url="https://gitlab.com/hbrandao/data-science-shortcuts/-/archive/0.0.1/data-science-shortcuts-0.0.1.tar.gz",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Intended Audience :: Data Science",
-        "Natural Language :: English"
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: POSIX :: Linux",
+        "Operating System :: OS Independent",
     ],
     python_requires='>=3.8',
 )
