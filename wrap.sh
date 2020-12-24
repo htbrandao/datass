@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Cleaning old build"
-rm -vr dist/
+echo "Cleaning old build" &&
+rm -vr dist/ &&
 
-echo "Creating new build"
-python3 setup.py sdist bdist_wheel
+echo "Creating new build" &&
+python3 setup.py sdist bdist_wheel &&
 twine upload --verbose dist/*
 
 echo "Publishing to Git"
