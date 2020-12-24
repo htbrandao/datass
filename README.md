@@ -30,20 +30,22 @@ Choose one:
 
 Example:
 
-> import datass
+```
+import datass
 
-> import pandas as pd
+import pandas as pd
 
-> df = pd.read_csv('some-file.csv')
+df = pd.read_csv('some-file.csv')
 
-> #### # find null values
-> datass.dataframe.inspection._isnull(df)
+# find null values
+datass.dataframe.inspection._isnull(df)
 
-> #### # run value counts
-> datass.dataframe.inspection._value_counts()(df)
+# run value counts
+datass.dataframe.inspection._value_counts()(df)
 
-> #### # run describe
-> datass.dataframe.inspection._describe(df)
+# run describe
+datass.dataframe.inspection._describe(df)
+```
 
 # # Other
 
