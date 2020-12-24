@@ -4,11 +4,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 run_requirements = [
-    'numpy==1.18.5',
-    'nltk==3.5',
-    'pandas==1.1.5',
-    'seaborn==0.11.0',
-    'matplotlib==3.3.2',
+    'numpy',
+    'nltk',
+    'pandas',
+    'seaborn',
+    'matplotlib',
 ]
 
 setuptools.setup(
@@ -23,7 +23,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://gitlab.com/hbrandao/data-science-shortcuts",
-    download_url="https://gitlab.com/hbrandao/data-science-shortcuts/-/raw/master/dist/datass-0.0.1.tar.gz",
+    download_url="https://gitlab.com/hbrandao/data-science-shortcuts/-/archive/0.0.1/data-science-shortcuts-0.0.1.tar.gz",
     packages=setuptools.find_packages(),
     classifiers=[
         "Intended Audience :: Data Science",
