@@ -1,4 +1,5 @@
-# **Data** **S**cience **S**hortcuts
+
+# <img src="etc/Drawing.png" alt="logo" width="80"/> **Data** **S**cience **S**hortcuts 
 
 This time I *really* got tired of rewriting the same old data analysis functions again.
 
