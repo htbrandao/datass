@@ -4,6 +4,8 @@ import pandas as pd
 def _value_counts(df):
     """
     Generalizes pd.value_counts() to all columns
+
+    df : DataFrame object
     """
     print('>> Value counts:\n')
     for c in df.columns:
@@ -13,6 +15,8 @@ def _value_counts(df):
 def _describe(df):
     """
     Generalizes pd.describe() to all columns
+
+    df : DataFrame object
     """
     print('>> Describe columns:\n')
     for c in df.columns:
@@ -22,6 +26,8 @@ def _describe(df):
 def _isnull(df):
     """
     Generalizes pd.isnull() to all columns
+
+    df : DataFrame object
     """
     print('>> Null registers:\n')
     for c in df.columns:
@@ -30,3 +36,19 @@ def _isnull(df):
             print(f'# {c}: 0 null rows')
         else:
             print(f'# {c}: {cnt} rows')
+
+
+def total_amazing_inspection(df):
+    """
+    Runs an amazing inspection
+
+    Parameters
+    ----------
+    df: DataFrame object
+
+    Returns
+    -------
+    This
+        Exactly what you wish for!
+    """
+    pass
