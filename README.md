@@ -62,4 +62,5 @@ datass.dataframe.inspection._describe(df)
 
     1 - keep on coding the actual module
     1.1 - update docs
+    1.2 - fix proj page not fowarding to docs
     2 - YOLO
