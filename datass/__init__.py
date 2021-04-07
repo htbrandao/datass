@@ -1,2 +1,1 @@
-__version__ = '0.0.1'
-__name__ = 'datass'
+__version__ = '0.0.1.dev2'

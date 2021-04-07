@@ -1,5 +1,10 @@
 
-# [<img src="etc/img/drawing.png" alt="logo" width="80"/> **Data** **S**cience **S**hortcuts - DataSS](https://htbrandao.github.io/datass/)
+![](etc/img/apple-touch-icon.png)
+
+## [**Data** **S**cience **S**hortcuts - DataSS](https://htbrandao.github.io/datass/)
+
+
+# About:
 
 This time I *really* got tired of rewriting the same old data analysis functions again.
 
@@ -7,7 +12,7 @@ For now on I'll write them in this package.
 
 MIT License.
 
-# Installation
+# Installation ([PyPI](https://pypi.org/project/datass/)):
 
 Download and install:
 
@@ -31,7 +36,7 @@ or, install a specific version:
 pip3 install datass==0.0.1
 ```
 
-# Usage
+# Usage:
 
 Example:
 
@@ -52,13 +57,13 @@ datass.dataframe.inspection._value_counts()(df)
 datass.dataframe.inspection._describe(df)
 ```
 
-# Other
+# Other:
 
 - Documentation created using [Sphinx](https://www.sphinx-doc.org/en/master/)
 - Packaged using this [guide](https://packaging.python.org/tutorials/packaging-projects/)
 - Bootstrap [theme](https://startbootstrap.com/theme/freelancer)
 
-# TODO & FIXME
+# TODO & FIXME:
 
     1 - keep on coding the actual module
     1.1 - update docs
