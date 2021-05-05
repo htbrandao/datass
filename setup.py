@@ -15,12 +15,13 @@ with open('README.md', 'r', encoding='utf-8') as readme:
     long_description = readme.read()
 
 run_requirements = [
-    'numpy',
-    'nltk',
-    'pandas',
-    'seaborn',
     'matplotlib',
-    'plotly'
+    'nltk',
+    'numpy',
+    'pandas',
+    'plotly',
+    'scipy',
+    'seaborn'
 ]
 
 setuptools.setup(
@@ -31,7 +32,7 @@ setuptools.setup(
     license='MIT',
     zip_safe=False,
     install_requirements=run_requirements,
-    description='Data Science Shortcuts (DataSS): Package for lazy, or overwhelmed, data scientists',
+    description='Data Science Shortcuts (DataSS): Package for lazy (or overwhelmed...) data scientists',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/htbrandao/datass',
